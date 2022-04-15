@@ -293,8 +293,8 @@ export default function Home() {
   const renderNotConnectedContainer = () => (
     <div className="connect-wallet-containers">
       <img
-        src="https://media.giphy.com/media/3ohhwytHcusSCXXOUg/giphy.gif"
-        alt="Ninja donut gif"
+        src="https://media2.giphy.com/media/vLpclx5lofmqnEswm0/giphy.gif?cid=ecf05e47fzfa63vy2syx6gh11mmapvizfpp8nd7o4vkv9xbs&rid=giphy.gif&ct=g"
+        alt="developer"
       />
       <button
         onClick={connectWallet}
@@ -345,7 +345,7 @@ export default function Home() {
         <input
           type="text"
           value={record}
-          placeholder="whats ur ninja power"
+          placeholder="whats ur dev skills"
           onChange={(e) => setRecord(e.target.value)}
         />
         {editing ? (
@@ -457,8 +457,8 @@ export default function Home() {
         <div className="header-containers">
           <header>
             <div className="left">
-              <p className="title">🐱‍👤 Ninja Name Service</p>
-              <p className="subtitle">Your immortal API on the blockchain!</p>
+              <p className="title">🐱‍👤 Developer Name Service</p>
+              <p className="subtitle">Your immortal Developer API on the blockchain!</p>
             </div>
             <div className="right">
               <img
@@ -489,7 +489,11 @@ export default function Home() {
         {mints && renderMints()}
 
         <div className="footer-containers">
-          <img alt="Twitter Logo" className="twitter-logo" src='twitter-logo.svg' />
+          <img
+            alt="Twitter Logo"
+            className="twitter-logo"
+            src="twitter-logo.svg"
+          />
           <a
             className="footer-text"
             href={TWITTER_LINK}
